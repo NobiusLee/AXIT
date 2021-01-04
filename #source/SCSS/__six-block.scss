@@ -2,6 +2,10 @@
     // .six-block__body
     background-color: #f5f5f5;
     padding: 115px 0;
+
+    @media (max-width: 925px) {
+        padding: 50px;
+    }
     &__body {
         display: flex;
         flex-direction: column;
@@ -63,7 +67,7 @@
 
     &__bottom-row {
         padding: 80px 0;
-        //height: 680px;
+        height: 600px;
     }
 
     // .six-block__bottom-row-body
@@ -187,6 +191,10 @@
                 transform: scale(1);
             }
         }
+
+        .six-block__bottom-row-body {
+            //height: ;
+        }
     }
 
     // .six-block__price-tth
@@ -289,6 +297,9 @@
                     transform: scale(1);
                 }
             }
+        }
+        &__bottom-row {
+            height: 100%;
         }
     }
 }
