@@ -733,6 +733,18 @@ input:-ms-input-placeholder {
           justify-content: space-between;
 }
 
+@media (max-width: 400px) {
+  .twice-block__body {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .twice-block__left-column {
+    display: none;
+  }
+}
+
 .twice-block__left-column-body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -807,7 +819,6 @@ input:-ms-input-placeholder {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background: url(../img/image_right_u255.png) center no-repeat;
 }
 
 .twice-block__title {

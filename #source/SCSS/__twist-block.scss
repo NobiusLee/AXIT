@@ -9,11 +9,17 @@
     &__body {
         display: flex;
         justify-content: space-between;
+        @media (max-width: 400px) {
+            display: block;
+        }
     }
 
     // .twice-block__left-column
 
     &__left-column {
+        @media (max-width: 400px) {
+            display: none;
+        }
     }
 
     // .twice-block__left-column-body
@@ -75,7 +81,6 @@
         flex-direction: column;
         //justify-content: space-between;
         align-items: flex-start;
-        background: url(../img/image_right_u255.png) center no-repeat;
     }
 
     // .twice-block__title
