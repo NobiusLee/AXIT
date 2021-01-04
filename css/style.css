@@ -1102,6 +1102,12 @@ input:-ms-input-placeholder {
   padding: 115px 0;
 }
 
+@media (max-width: 777px) {
+  .four-block {
+    padding: 50px 0;
+  }
+}
+
 .four-block__body {
   display: -webkit-box;
   display: -ms-flexbox;
