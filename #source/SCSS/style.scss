@@ -51,7 +51,7 @@ body.lock {
     }
 
     @media (max-width: 777px) {
-        max-width: 100%;
+        max-width: none;
         padding: 0 20px;
     }
 }
@@ -90,3 +90,4 @@ input:-ms-input-placeholder {
 @import "__twist-block";
 @import "__tree-block";
 @import "__four-block";
+@import "__five-block";
