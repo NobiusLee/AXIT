@@ -18,12 +18,14 @@ $width-canvas: 1150px;
     font-weight: normal;
     font-style: normal;
 }
+
 ////////////////////////////////////////////////////////
 
 //Предустоновки---------------------------------------------
 
 body {
     font-family: "FontAwesome", "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #9a9a9a;
 }
 
 @media (max-width: 777px) {
@@ -59,4 +61,31 @@ body.lock {
     width: 100%;
 }
 
+input::-webkit-input-placeholder {
+    color: #dbdbdb;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+input:-moz-placeholder {
+    color: #dbdbdb;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+input:-ms-input-placeholder {
+    color: #dbdbdb;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
 @import "__header";
+
+@import "__first-block";
+@import "__social-block";
+@import "__twist-block";
