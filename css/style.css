@@ -1927,3 +1927,105 @@ input:-ms-input-placeholder {
   font-weight: 400;
   text-align: left;
 }
+
+.eight-block {
+  background-color: #9a9a9a;
+  padding: 77px 0;
+}
+
+@media (max-width: 777px) {
+  .eight-block {
+    padding: 50px 0;
+  }
+}
+
+.eight-block__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.eight-block__title {
+  margin: 0 0 26px 0;
+}
+
+.eight-block__title span {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 777px) {
+  .eight-block__title span {
+    font-size: 15px;
+  }
+}
+
+.eight-block__border {
+  display: block;
+  width: 64px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 0 0 26px 0;
+}
+
+.eight-block__text {
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 0 26px 0;
+}
+
+.eight-block__btn-block {
+  width: 135px;
+  height: 42px;
+  border: 1px solid #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.eight-block__btn-block span {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.eight-block__btn-block:hover {
+  background-color: #ff6f00;
+  border: 1px solid #ff9b51;
+  -webkit-box-shadow: 0 0 10px #ff9b51;
+          box-shadow: 0 0 10px #ff9b51;
+}
+
+.eight-block__btn-block:hover span {
+  color: #000000;
+  text-shadow: 0 0 10px #000000;
+}
