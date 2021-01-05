@@ -1606,6 +1606,16 @@ input:-ms-input-placeholder {
   }
 }
 
+.six-block__price-btn:hover {
+  background-color: #ff6a00;
+  -webkit-box-shadow: #ff6a00;
+          box-shadow: #ff6a00;
+}
+
+.six-block__price-btn:hover span {
+  color: #000000;
+}
+
 .six-block__price-body:hover .six-block__price-btn {
   height: 40px;
 }
