@@ -126,6 +126,16 @@ body.lock {
 .wrapper {
   height: 100%;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 input::-webkit-input-placeholder {
@@ -2224,4 +2234,71 @@ input:-ms-input-placeholder {
 .nine-block__botton-row-btn:hover span {
   color: #000000;
   text-shadow: 0 0 10px #000000;
+}
+
+.footer {
+  background-color: #000000;
+}
+
+.footer__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+}
+
+.footer__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 317px;
+  margin: 0 0 15px 0;
+}
+
+@media (max-width: 777px) {
+  .footer__top {
+    width: 200px;
+  }
+}
+
+.footer__top-item {
+  height: 23px;
+  width: auto;
+}
+
+.footer__top-item img {
+  height: 100%;
+}
+
+.footer__bottom-copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__bottom-copy-text span {
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
