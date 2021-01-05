@@ -2029,3 +2029,199 @@ input:-ms-input-placeholder {
   color: #000000;
   text-shadow: 0 0 10px #000000;
 }
+
+.nine-block {
+  background-color: #ffffff;
+}
+
+.nine-block__body {
+  padding: 115px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nine-block__top-row-bod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nine-block__top-row-title {
+  margin: 0 0 30px 0;
+}
+
+.nine-block__top-row-title span {
+  color: #212121;
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 777px) {
+  .nine-block__top-row-title span {
+    font-size: 20px;
+  }
+}
+
+.nine-block__top-row-border {
+  width: 64px;
+  height: 2px;
+  display: block;
+  background-color: #ff8b38;
+  margin: 0 0 30px 0;
+}
+
+.nine-block__top-row-text {
+  margin: 0 0 30px 0;
+}
+
+.nine-block__top-row-text p {
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+.nine-block__bottom-row-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nine-block__bottom-row-contact-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 60px 0;
+}
+
+@media (max-width: 777px) {
+  .nine-block__bottom-row-contact-input {
+    display: block;
+    margin: 0 0 40px 0;
+  }
+}
+
+.nine-block__bottom-row-left-column {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.nine-block__bottom-row-left-column input {
+  display: block;
+  width: 100%;
+  height: 31px;
+  border-bottom: 1px solid #d7d7d7;
+  margin: 0 0 30px 0;
+}
+
+.nine-block__bottom-row-left-column input:last-child {
+  margin: 0;
+}
+
+@media (max-width: 777px) {
+  .nine-block__bottom-row-left-column {
+    margin: 0 0 30px 0;
+  }
+}
+
+.nine-block__bottom-row-right-column {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  margin: 0 0 14px 0;
+  padding: 0 0 0 20px;
+}
+
+.nine-block__bottom-row-right-column label {
+  color: #dbdbdb;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.nine-block__bottom-row-right-column textarea {
+  padding: 10px 0 0 0px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+@media (max-width: 777px) {
+  .nine-block__bottom-row-right-column textarea {
+    height: 128px;
+  }
+}
+
+@media (max-width: 777px) {
+  .nine-block__bottom-row-right-column {
+    padding: 0;
+  }
+}
+
+.nine-block__botton-row-capsule-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nine-block__botton-row-btn {
+  width: 148px;
+  height: 46px;
+  background-color: #ff882d;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.nine-block__botton-row-btn span {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.nine-block__botton-row-btn:hover {
+  background-color: #ff6f00;
+  -webkit-box-shadow: 0 0 10px #ff6f00;
+          box-shadow: 0 0 10px #ff6f00;
+}
+
+.nine-block__botton-row-btn:hover span {
+  color: #000000;
+  text-shadow: 0 0 10px #000000;
+}
