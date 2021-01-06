@@ -168,6 +168,12 @@
 
     &__sign-in-area {
         height: 100%;
+
+        & form {
+            & input._error {
+                box-shadow: 0 0 15px red;
+            }
+        }
     }
 
     // .first-block-sign-in__name
